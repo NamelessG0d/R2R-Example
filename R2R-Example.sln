@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R2R-Example.Lib", "R2R-Example.Lib\R2R-Example.Lib.csproj", "{FF01A113-B88F-432C-A403-DECE80B7DF5C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "R2R-Example.Example", "R2R-Example.Example\R2R-Example.Example.vcxproj", "{5D47DFF4-A6D2-4B2F-9341-C1817A4E16F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FF01A113-B88F-432C-A403-DECE80B7DF5C} = {FF01A113-B88F-432C-A403-DECE80B7DF5C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF01A113-B88F-432C-A403-DECE80B7DF5C}.Debug|x64.ActiveCfg = Debug|x64
+		{FF01A113-B88F-432C-A403-DECE80B7DF5C}.Debug|x64.Build.0 = Debug|x64
+		{FF01A113-B88F-432C-A403-DECE80B7DF5C}.Release|x64.ActiveCfg = Release|x64
+		{FF01A113-B88F-432C-A403-DECE80B7DF5C}.Release|x64.Build.0 = Release|x64
+		{5D47DFF4-A6D2-4B2F-9341-C1817A4E16F4}.Debug|x64.ActiveCfg = Debug|x64
+		{5D47DFF4-A6D2-4B2F-9341-C1817A4E16F4}.Debug|x64.Build.0 = Debug|x64
+		{5D47DFF4-A6D2-4B2F-9341-C1817A4E16F4}.Release|x64.ActiveCfg = Release|x64
+		{5D47DFF4-A6D2-4B2F-9341-C1817A4E16F4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {161E191D-D234-4A3B-8CE3-550BE08430C1}
+	EndGlobalSection
+EndGlobal

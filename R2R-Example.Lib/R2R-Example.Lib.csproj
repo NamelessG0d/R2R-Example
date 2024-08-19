@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>R2R_Example.Lib</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <Title>ReadyToRun Example</Title>
+    <Authors>NamelessG0d</Authors>
+    <PackageProjectUrl>https://github.com/NamelessG0d/R2R-Example</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/NamelessG0d/R2R-Example</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Platforms>x64</Platforms>
+    <BaseOutputPath>..\</BaseOutputPath>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <Configurations>Debug;Release</Configurations>
+	<PublishAot>true</PublishAot>
+	<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IsAotCompatible>True</IsAotCompatible>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IsAotCompatible>True</IsAotCompatible>
+  </PropertyGroup>
+
+</Project>

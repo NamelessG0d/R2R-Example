@@ -1,0 +1,7 @@
+
+/.vs
+/R2R-Example.Example/x64
+/R2R-Example.Lib/obj
+/x64
+R2R-Example.Lib/Properties/PublishProfiles/ReleasePublish.pubxml.user
+R2R-Example.Lib/Properties/PublishProfiles/DebugPublish.pubxml.user
